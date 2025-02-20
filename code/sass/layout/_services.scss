@@ -1,0 +1,35 @@
+.services {
+    position: absolute;
+    bottom: -100px;
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 16px;
+
+    &__item {
+        width: 115px;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        align-items: center;
+    }
+
+    &__image {
+        width: 70px;
+    }
+
+    &__number {
+        font-size: 30px;
+        font-weight: 500;
+        color: $dark-blue;
+    }
+
+    &__type {
+        text-align: center;
+        color: $grey;
+        font-size: 16px;
+    }
+    
+}

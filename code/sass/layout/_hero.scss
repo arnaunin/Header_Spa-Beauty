@@ -1,0 +1,72 @@
+.hero {
+    padding-top: 100px;
+    width: 46%;
+
+    &__image {
+        position: absolute;
+        width: 1400px;
+        top: 0;
+        right: -80px;
+        pointer-events: none;
+    }
+
+
+    &__title {
+        font-size: 52px;
+        color: $dark-blue;
+        font-weight: bold;
+        line-height: 80px;
+    }
+
+    &__subtitle {
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 40px;
+        color: $grey;
+
+    }
+
+    &__buttons {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        padding-bottom: 200px;
+
+        .video-button {
+            display: flex;
+            align-items: center;
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: $dark-blue;
+            font-size: 16px;
+            
+            &__icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 48px;
+                height: 48px;
+                background: white;
+                border-radius: 50%;
+                box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1); // Sombra suave
+                margin-right: 10px;
+        
+                .play-icon {
+                    color: #264065;
+                    font-size: 18px;
+                }
+            }
+        
+            &:hover .video-button__icon {
+                transform: scale(1.1);
+                transition: 0.3s ease-in-out;
+            }
+        }
+        
+
+        
+    }
+
+}

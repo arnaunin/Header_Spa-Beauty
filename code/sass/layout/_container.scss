@@ -1,0 +1,19 @@
+.container {
+    padding-left: 7%;
+    padding-right: 7%;
+
+    
+
+    &-1 {
+        background-image: linear-gradient(to right, $bg-color-left 67%, $bg-color-right 67%);
+    }
+
+    &-2 {
+        background-image: url(./../../img/bg-flower.svg), linear-gradient(to right, $bg-color-left 67%, $bg-color-right 67%);
+        background-repeat: no-repeat;
+        background-position: top -60% right 5%;
+    }
+
+    
+}
+

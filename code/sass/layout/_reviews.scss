@@ -1,0 +1,37 @@
+.reviews {
+
+    .review {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        width: 315px;
+        background-color: rgb(255, 255, 255, 0.5);
+        border-radius: 16px;
+        padding: 16px;
+
+        &__icon {
+            width: 26px;
+        }
+
+        &__text {
+            font-size: 14px;
+            color: $black;
+        }
+
+        &__person {
+            color: $dark-blue;
+            font-weight: bold;
+        }
+    
+        &-1 {
+            top: 52%;
+            right: 25px;
+        }
+
+        &-2 {
+            top: 83%;
+            right: 145px;
+        }
+    }
+}
