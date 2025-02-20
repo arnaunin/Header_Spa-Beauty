@@ -170,7 +170,7 @@
   background-image: linear-gradient(to right, #FAF8F5 67%, #A9D6CB 67%);
 }
 .container-2 {
-  background-image: url(./../../img/bg-flower.svg), linear-gradient(to right, #FAF8F5 67%, #A9D6CB 67%);
+  background-image: url(./../img/bg-flower.svg), linear-gradient(to right, #FAF8F5 67%, #A9D6CB 67%);
   background-repeat: no-repeat;
   background-position: top -60% right 5%;
 }
