@@ -1,11 +1,5 @@
-@import "grid";
-@import "footer";
-@import "forms";
-@import "navbar";
-@import "sidebar";
-@import "header";
-@import "reviews";
-@import "hero";
-@import "container";
-@import "body";
-@import "services";
+@use "header";
+@use "reviews";
+@use "hero";
+@use "container";
+@use "services";
