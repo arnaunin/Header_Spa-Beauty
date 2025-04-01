@@ -50,11 +50,11 @@ Puedes ver una demo en **GitHub Pages**:
 ## 🛠️ Instalación y uso
 1. Clona el repoitorio:
 ```
-https://github.com/arnaunin/Header_Spa-Beauty.git
+git clone https://github.com/arnaunin/Header_Spa-Beauty.git
 ```
 2. Navega al repositorio:
 ```
-cd Header_Spa-Beauty
+cd Header_Spa-Beauty/code
 ```
 3. Instalación de sass:
 ```
